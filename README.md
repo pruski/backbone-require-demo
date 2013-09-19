@@ -6,4 +6,4 @@ If you need to see more than just js, please let me know.
 
 I'll add comments soon, but it's quite simple.
 
-Live demo can be found here http://demo.tablism.com/books
+Live demo can be found here http://demo.tablism.com
