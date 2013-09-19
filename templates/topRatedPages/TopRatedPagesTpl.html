@@ -1,0 +1,16 @@
+<thead>
+    <tr>
+        <th>Book</th>
+        <th>Page number</th>
+        <th>Rating</th>
+    </tr>
+</thead>
+<tbody>
+    <% _.each(pages, function(page){ %>
+        <tr data-route="/books/<%= page.title %>/<%= page.page %>">
+            <td><%= page.prettyName %></td>
+            <td><%= page.page %></td>
+            <td><%= page.rate > 0 ? page.rate : "No rating" %></td>
+        </tr>
+    <% }); %>
+</tbody>

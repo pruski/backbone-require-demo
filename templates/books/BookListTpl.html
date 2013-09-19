@@ -1,0 +1,8 @@
+<ul id="bookList" class="nav nav-tabs nav-stacked span2">
+    <% _.each(books, function(book){ %>
+
+        <li data-route="/books/<%= book.title %>"><a><%= book.prettyName %></a></li>
+
+    <% }); %>
+</ul>
+<div id="bookView" class="span10"><h2 class="disable-selection span12">Please select a book</h2></div>

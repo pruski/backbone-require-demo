@@ -1,0 +1,9 @@
+<h5 class="pageNumber"><%= page %></h5>
+<div class="pageFrame well"><%= content %></div>
+<% if(typeof(noRating) === 'undefined') { %>
+    <div class="ratingFrame well disable-selection">
+        <span class="desc">Rate this page:</span>
+        <ul class="ratingView"></ul>
+        <span class="thanks">Thank you!</span>
+    </div>
+<% } %>
